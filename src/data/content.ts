@@ -448,7 +448,7 @@ export const FAQ = [
   },
   {
     q: "Como funciona o orçamento?",
-    a: "Você pode nos enviar as informações do ambiente pelo WhatsApp, telefone ou formulário do site. Nossa equipe retorna com as possibilidades de material e o orçamento.",
+    a: "Você pode nos enviar as informações do ambiente pelo WhatsApp ou por telefone. Nossa equipe retorna com as possibilidades de material e o orçamento.",
   },
   {
     q: "Vocês realizam medição?",
