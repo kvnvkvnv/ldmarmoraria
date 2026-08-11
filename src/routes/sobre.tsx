@@ -7,7 +7,7 @@ import { CtaBanner } from "@/components/site/CtaBanner";
 
 const title = "Sobre | Marmoraria em Jacareí desde 2008 — LD Marmoraria";
 const description =
-  "A LD Marmoraria nasceu em São José dos Campos em 2008 e hoje está em Jacareí, especializada em mármores, granitos, importados e pedras decorativas.";
+  "A LD Marmoraria nasceu em São José dos Campos em 2008 e hoje está em Jacareí, especializada em mármores, granitos, quartzo e pedras decorativas.";
 
 export const Route = createFileRoute("/sobre")({
   head: () => ({

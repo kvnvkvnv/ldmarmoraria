@@ -16,7 +16,7 @@ import { Marquee } from "@/components/site/motion";
 
 const title = "LD Marmoraria | Mármores, Granitos e Projetos em Jacareí";
 const description =
-  "LD Marmoraria — Mármores, granitos, materiais importados e pedras decorativas para projetos personalizados em Jacareí e região.";
+  "LD Marmoraria — Mármores, granitos, quartzo e pedras decorativas para projetos personalizados em Jacareí e região.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -46,7 +46,7 @@ function Index() {
             "Mármores",
             "Granitos",
             "Quartzitos",
-            "Importados",
+            "Quartzo",
             "Pedras decorativas",
             "Projetos sob medida",
           ]}

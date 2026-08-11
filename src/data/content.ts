@@ -429,7 +429,7 @@ export const DIFFERENTIALS = [
 export const FAQ = [
   {
     q: "Quais tipos de pedras vocês trabalham?",
-    a: "Trabalhamos com mármores, granitos, materiais importados e pedras decorativas, com peças produzidas sob medida para cada projeto.",
+    a: "Trabalhamos com mármores, granitos, quartzo e pedras decorativas, com peças produzidas sob medida para cada projeto.",
   },
   {
     q: "Vocês fazem projetos personalizados?",

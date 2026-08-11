@@ -34,7 +34,7 @@ const SERVICES = [
   {
     index: "02",
     title: "Banheiros e lavabos",
-    text: "Tampos, cubas esculpidas, nichos e revestimentos em mármore, granito e materiais importados.",
+    text: "Tampos, cubas esculpidas, nichos e revestimentos em mármore, granito e quartzo.",
   },
   {
     index: "03",
@@ -65,7 +65,7 @@ function ServicosPage() {
         eyebrow="Serviços"
         title="Peças executadas"
         accent="sob medida."
-        text="Produzimos peças em mármores, granitos, materiais importados e pedras decorativas de acordo com as especificações de cada projeto."
+        text="Produzimos peças em mármores, granitos, quartzo e pedras decorativas de acordo com as especificações de cada projeto."
       />
 
       <section className="surface-light py-20 sm:py-28">

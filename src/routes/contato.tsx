@@ -5,7 +5,7 @@ import { FaqSection } from "@/components/site/FaqSection";
 
 const title = "Contato | Orçamento de Mármores e Granitos — LD Marmoraria";
 const description =
-  "Fale com a LD Marmoraria em Jacareí — SP. Solicite orçamento de bancadas, revestimentos e peças em mármore, granito e materiais importados.";
+  "Fale com a LD Marmoraria em Jacareí — SP. Solicite orçamento de bancadas, revestimentos e peças em mármore, granito e quartzo.";
 
 export const Route = createFileRoute("/contato")({
   head: () => ({
