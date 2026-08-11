@@ -64,6 +64,23 @@ function MateriaisPage() {
                   </p>
                 </Reveal>
               </div>
+
+              {m.gallery.length > 1 && (
+                <div className="lg:col-span-12 lg:order-3">
+                  <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+                    {m.gallery.slice(1).map((src, gi) => (
+                      <ImageReveal
+                        key={src}
+                        src={src}
+                        alt={`${m.name} — foto ${gi + 2}`}
+                        width={1200}
+                        height={900}
+                        className="aspect-[4/3] w-full rounded-sm"
+                      />
+                    ))}
+                  </div>
+                </div>
+              )}
             </article>
           ))}
         </div>
