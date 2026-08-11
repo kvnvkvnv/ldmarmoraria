@@ -24,12 +24,12 @@ export const SITE = {
     state: "SP",
     country: "BR",
   },
-  phone: "(12) 3966-8079",
-  phoneHref: "tel:+551239668079",
+  phone: "(12) 99619-4130",
+  phoneHref: "tel:+5512996194130",
   email: "ldmarmoraria@hotmail.com",
   /** EDITÁVEL: confirme o perfil oficial antes de publicar. */
-  instagram: "https://www.instagram.com/ldmarmoraria/",
-  maps: "https://www.google.com/maps/search/?api=1&query=Rua+Harold+Barnsley+Holland+1151+Jacarei+SP",
+  instagram: "https://www.instagram.com/ldmarmoraria",
+  maps: "https://maps.app.goo.gl/zfyVXbjWyN37fnMF7",
 } as const;
 
 export const NAV_LINKS = [
