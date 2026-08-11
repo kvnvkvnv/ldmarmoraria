@@ -86,7 +86,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "LD Marmoraria — Mármores, granitos, materiais importados e pedras decorativas para projetos personalizados em Jacareí e região.",
+          "LD Marmoraria — Mármores, granitos, quartzo e pedras decorativas para projetos personalizados em Jacareí e região.",
       },
       { property: "og:site_name", content: "LD Marmoraria" },
       { property: "og:type", content: "website" },
@@ -112,7 +112,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "@type": "LocalBusiness",
           name: "LD Marmoraria",
           description:
-            "Marmoraria especializada em mármores, granitos, materiais importados e pedras decorativas.",
+            "Marmoraria especializada em mármores, granitos, quartzo e pedras decorativas.",
           foundingDate: "2008",
           telephone: "+55 12 3966-8079",
           email: "ldmarmoraria@hotmail.com",

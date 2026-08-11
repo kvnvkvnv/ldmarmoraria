@@ -4,9 +4,9 @@ import { Reveal, ImageReveal } from "@/components/site/Reveal";
 import { CtaBanner } from "@/components/site/CtaBanner";
 import { MATERIALS } from "@/data/content";
 
-const title = "Materiais | Mármores, Granitos e Importados — LD Marmoraria";
+const title = "Materiais | Mármores, Granitos e Quartzo — LD Marmoraria";
 const description =
-  "Conheça os materiais da LD Marmoraria: mármores, granitos, importados e pedras decorativas para projetos personalizados em Jacareí e região.";
+  "Conheça os materiais da LD Marmoraria: mármores, granitos, quartzo e pedras decorativas para projetos personalizados em Jacareí e região.";
 
 export const Route = createFileRoute("/materiais")({
   head: () => ({

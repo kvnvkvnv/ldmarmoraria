@@ -7,7 +7,7 @@ import { PROJECTS, PROJECT_FILTERS } from "@/data/content";
 
 const title = "Projetos | Galeria de Trabalhos — LD Marmoraria";
 const description =
-  "Galeria de projetos da LD Marmoraria: cozinhas, banheiros, áreas gourmet, escadas e bancadas em mármore, granito e materiais importados.";
+  "Galeria de projetos da LD Marmoraria: cozinhas, banheiros, áreas gourmet, escadas e bancadas em mármore, granito e quartzo.";
 
 export const Route = createFileRoute("/projetos")({
   head: () => ({
