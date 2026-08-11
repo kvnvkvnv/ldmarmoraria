@@ -1,7 +1,9 @@
-import matMarmores from "@/assets/mat-marmores.jpg";
-import matGranitos from "@/assets/mat-granitos.jpg";
-import matQuartzo from "@/assets/mat-quartzo.jpg";
-import matDecorativas from "@/assets/mat-decorativas.jpg";
+import {
+  marmoresGallery,
+  granitosGallery,
+  quartzoGallery,
+  pedrasDecorativasGallery,
+} from "@/data/material-images";
 import ld01 from "@/assets/projetos/ld-01.json";
 import ld02 from "@/assets/projetos/ld-02.json";
 import ld03 from "@/assets/projetos/ld-03.json";
@@ -45,9 +47,10 @@ export type Material = {
   description: string;
   long: string;
   image: string;
+  gallery: string[];
 };
 
-/** MATERIAIS — imagens ilustrativas. Substitua por fotos reais das chapas da LD. */
+/** MATERIAIS — fotos reais das chapas e projetos da LD. */
 export const MATERIALS: Material[] = [
   {
     slug: "marmores",
@@ -55,7 +58,8 @@ export const MATERIALS: Material[] = [
     name: "Mármores",
     description: "Elegância natural em cada veio",
     long: "Superfícies clássicas e atemporais, com veios únicos em cada chapa. Indicadas para bancadas, lavabos, revestimentos e detalhes de destaque.",
-    image: matMarmores,
+    image: marmoresGallery[0]!,
+    gallery: marmoresGallery,
   },
   {
     slug: "granitos",
@@ -63,7 +67,8 @@ export const MATERIALS: Material[] = [
     name: "Granitos",
     description: "Resistência com personalidade",
     long: "Alta resistência para o uso diário, com grande variedade de tonalidades e texturas. Muito utilizados em cozinhas, áreas gourmet e áreas externas.",
-    image: matGranitos,
+    image: granitosGallery[0]!,
+    gallery: granitosGallery,
   },
   {
     slug: "quartzo",
@@ -71,7 +76,8 @@ export const MATERIALS: Material[] = [
     name: "Quartzo",
     description: "Uniformidade e alta performance",
     long: "Superfícies de quartzo com padrão uniforme, baixa porosidade e grande resistência a manchas. Ideais para bancadas de cozinha, banheiros e áreas de uso intenso.",
-    image: matQuartzo,
+    image: quartzoGallery[0]!,
+    gallery: quartzoGallery,
   },
   {
     slug: "pedras-decorativas",
@@ -79,7 +85,8 @@ export const MATERIALS: Material[] = [
     name: "Pedras decorativas",
     description: "Texturas que transformam ambientes",
     long: "Revestimentos e detalhes decorativos em pedra natural, que dão textura, profundidade e caráter à arquitetura.",
-    image: matDecorativas,
+    image: pedrasDecorativasGallery[0]!,
+    gallery: pedrasDecorativasGallery,
   },
 ];
 
