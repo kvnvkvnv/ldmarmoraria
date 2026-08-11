@@ -58,7 +58,7 @@ export const MATERIALS: Material[] = [
     name: "Mármores",
     description: "Elegância natural em cada veio",
     long: "Superfícies clássicas e atemporais, com veios únicos em cada chapa. Indicadas para bancadas, lavabos, revestimentos e detalhes de destaque.",
-    image: marmoresGallery[0],
+    image: marmoresGallery[0]!,
     gallery: marmoresGallery,
   },
   {
@@ -67,7 +67,7 @@ export const MATERIALS: Material[] = [
     name: "Granitos",
     description: "Resistência com personalidade",
     long: "Alta resistência para o uso diário, com grande variedade de tonalidades e texturas. Muito utilizados em cozinhas, áreas gourmet e áreas externas.",
-    image: granitosGallery[0],
+    image: granitosGallery[0]!,
     gallery: granitosGallery,
   },
   {
@@ -76,7 +76,7 @@ export const MATERIALS: Material[] = [
     name: "Quartzo",
     description: "Uniformidade e alta performance",
     long: "Superfícies de quartzo com padrão uniforme, baixa porosidade e grande resistência a manchas. Ideais para bancadas de cozinha, banheiros e áreas de uso intenso.",
-    image: quartzoGallery[0],
+    image: quartzoGallery[0]!,
     gallery: quartzoGallery,
   },
   {
@@ -85,7 +85,7 @@ export const MATERIALS: Material[] = [
     name: "Pedras decorativas",
     description: "Texturas que transformam ambientes",
     long: "Revestimentos e detalhes decorativos em pedra natural, que dão textura, profundidade e caráter à arquitetura.",
-    image: pedrasDecorativasGallery[0],
+    image: pedrasDecorativasGallery[0]!,
     gallery: pedrasDecorativasGallery,
   },
 ];
