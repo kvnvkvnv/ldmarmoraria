@@ -2,7 +2,7 @@
 
 Site institucional da **LD Marmoraria**, empresa especializada em mármores, granitos e acabamentos em pedra, atendendo Jacareí, o Vale do Paraíba, Litoral Norte e a região de São Paulo.
 
-🔗 **Site:** [ldmarmoraria.com](https://ldmarmoraria.com.br)
+🔗 **Site:** [ldmarmoraria.com.br](https://ldmarmoraria.com.br)
 📷 **Instagram:** [@ldmarmoraria](https://www.instagram.com/ldmarmoraria/)
 
 ---
