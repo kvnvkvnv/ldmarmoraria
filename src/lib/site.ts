@@ -4,7 +4,7 @@
  */
 
 /** Número do WhatsApp (apenas dígitos, com DDI + DDD). Contato oficial da empresa. */
-export const WHATSAPP_NUMBER = "551239668079";
+export const WHATSAPP_NUMBER = "5512996194130";
 
 /** Mensagem padrão enviada ao abrir o WhatsApp. */
 export const WHATSAPP_DEFAULT_MESSAGE =
