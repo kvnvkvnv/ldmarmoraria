@@ -28,8 +28,8 @@ export function About() {
           <Reveal>
             <p className="text-foreground">
               A LD Marmoraria nasceu em São José dos Campos em 2008 e atualmente está localizada em
-              Jacareí. Somos especializados em peças produzidas em mármores, granitos, materiais
-              importados e pedras decorativas.
+              Jacareí. Somos especializados em peças produzidas em mármores, granitos, quartzo e
+              pedras decorativas.
             </p>
           </Reveal>
           <Reveal delay={0.06}>

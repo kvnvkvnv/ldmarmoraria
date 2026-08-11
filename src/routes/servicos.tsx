@@ -8,7 +8,7 @@ import { Reveal } from "@/components/site/Reveal";
 
 const title = "Serviços | Bancadas, Revestimentos e Peças sob Medida — LD Marmoraria";
 const description =
-  "Serviços da LD Marmoraria: peças sob medida em mármore, granito, importados e pedras decorativas para cozinhas, banheiros, escadas e áreas gourmet.";
+  "Serviços da LD Marmoraria: peças sob medida em mármore, granito, quartzo e pedras decorativas para cozinhas, banheiros, escadas e áreas gourmet.";
 
 export const Route = createFileRoute("/servicos")({
   head: () => ({

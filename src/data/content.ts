@@ -1,6 +1,6 @@
 import matMarmores from "@/assets/mat-marmores.jpg";
 import matGranitos from "@/assets/mat-granitos.jpg";
-import matImportados from "@/assets/mat-importados.jpg";
+import matQuartzo from "@/assets/mat-quartzo.jpg";
 import matDecorativas from "@/assets/mat-decorativas.jpg";
 import ld01 from "@/assets/projetos/ld-01.json";
 import ld02 from "@/assets/projetos/ld-02.json";
@@ -66,12 +66,12 @@ export const MATERIALS: Material[] = [
     image: matGranitos,
   },
   {
-    slug: "importados",
+    slug: "quartzo",
     index: "03",
-    name: "Importados",
-    description: "Superfícies exclusivas para projetos únicos",
-    long: "Materiais selecionados de origem importada, para projetos que pedem exclusividade e um desenho de veios marcante.",
-    image: matImportados,
+    name: "Quartzo",
+    description: "Uniformidade e alta performance",
+    long: "Superfícies de quartzo com padrão uniforme, baixa porosidade e grande resistência a manchas. Ideais para bancadas de cozinha, banheiros e áreas de uso intenso.",
+    image: matQuartzo,
   },
   {
     slug: "pedras-decorativas",
