@@ -1,7 +1,9 @@
-import matMarmores from "@/assets/mat-marmores.jpg";
-import matGranitos from "@/assets/mat-granitos.jpg";
-import matQuartzo from "@/assets/mat-quartzo.jpg";
-import matDecorativas from "@/assets/mat-decorativas.jpg";
+import {
+  marmoresGallery,
+  granitosGallery,
+  quartzoGallery,
+  pedrasDecorativasGallery,
+} from "@/data/material-images";
 import ld01 from "@/assets/projetos/ld-01.json";
 import ld02 from "@/assets/projetos/ld-02.json";
 import ld03 from "@/assets/projetos/ld-03.json";
